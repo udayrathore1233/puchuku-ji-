@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.animated-button {
+  background-color: #6200ea;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.animated-button:hover {
+  background-color: #3700b3;
+  transform: scale(2);
+}
+
+#message {
+  font-size: 40px;
+  color: #ffffff;
+  transition: opacity 0.1s ease;
+  opacity: 45;
+  visibility: hidden;
+}
+
+#message.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+ body{
+  background-color: #7d37e0;
+ }
